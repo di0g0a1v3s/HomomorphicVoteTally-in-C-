@@ -99,9 +99,12 @@ This process also simplifies the checksum verification. The election is declared
 ## Libraries and references
 For homomorphic encryption use the Microsoft SEAL library available here:
 https://github.com/Microsoft/SEAL
-For public key encryption in C, use, for instance, the libcrypto available here:
+
+For public key encryption in C, the libcrypto available here:
 https://github.com/openssl/openssl
+
 You may find example code to sign and verify documents with libcrypto here:
 https://wiki.openssl.org/index.php/EVP_Signing_and_Verifying
+
 For Shamir’s secret sharing you may use the libsss available here:
 https://github.com/dsprenkels/sss/blob/master/README.md
